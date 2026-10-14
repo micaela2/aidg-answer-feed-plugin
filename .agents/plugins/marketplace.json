@@ -1,0 +1,10 @@
+{
+  "name": "aidg-answer-feed",
+  "interface": { "displayName": "AIDG Answer Feed" },
+  "plugins": [{
+    "name": "answer-feed",
+    "source": { "source": "local", "path": "./plugins/answer-feed" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}

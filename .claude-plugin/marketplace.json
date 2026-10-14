@@ -1,0 +1,14 @@
+{
+  "name": "aidg-answer-feed",
+  "owner": { "name": "AI Discovery Group", "email": "info@aidiscoverygroup.com" },
+  "metadata": { "description": "Prepare reviewed Merchant Center supplemental feeds from authored facts." },
+  "plugins": [{
+    "name": "answer-feed",
+    "source": "./plugins/answer-feed",
+    "description": "Validate authored product facts and return reviewed supplemental TSV files.",
+    "version": "1.1.0",
+    "author": { "name": "AI Discovery Group" },
+    "category": "productivity",
+    "tags": ["merchant-center", "ecommerce", "supplemental-feed"]
+  }]
+}

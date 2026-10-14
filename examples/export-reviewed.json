@@ -1,0 +1,13 @@
+{
+  "products": [{
+    "id": "KETTLE-01",
+    "qa": [{ "question": "Does the lid detach?", "answer": "The lid is removable." }],
+    "documents": [],
+    "groupId": "",
+    "groupTitle": "",
+    "options": []
+  }],
+  "referenceIds": ["KETTLE-01"],
+  "columns": ["id", "question_and_answer"],
+  "reviewed": true
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aidg-answer-feed": {
+      "type": "http",
+      "url": "https://aidg-answer-feed.connect675501.chatgpt.site/api/mcp"
+    }
+  }
+}

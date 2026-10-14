@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "answer-feed",
+  "version": "1.1.0",
+  "description": "Validate merchant-authored product facts and prepare reviewed Merchant Center supplemental TSV files.",
+  "author": { "name": "AI Discovery Group", "email": "info@aidiscoverygroup.com", "url": "https://aidg-answer-feed.connect675501.chatgpt.site" },
+  "homepage": "https://aidg-answer-feed.connect675501.chatgpt.site/integrations",
+  "repository": "https://github.com/micaela2/aidg-answer-feed-plugin",
+  "keywords": ["merchant-center", "ecommerce", "supplemental-feed", "product-data"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AIDG Answer Feed",
+        "shortDescription": "Review product answer feeds",
+        "longDescription": "Check exact product IDs, authored answers, PDF links and variant consistency. Return a reviewed supplemental TSV for manual Merchant Center upload. Checks do not verify product claims, document access, Google ingestion or visibility.",
+        "developerName": "AI Discovery Group",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://aidg-answer-feed.connect675501.chatgpt.site/integrations",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg",
+        "privacyPolicyURL": "https://aidg-answer-feed.connect675501.chatgpt.site/privacy",
+        "termsOfServiceURL": "https://aidg-answer-feed.connect675501.chatgpt.site/terms",
+        "supportURL": "https://aidg-answer-feed.connect675501.chatgpt.site/support",
+        "defaultPrompt": ["Validate my authored Merchant Center product answers against these primary product IDs.", "Prepare a supplemental TSV from these five reviewed products and selected attributes."]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "aidg-answer-feed": {
+      "type": "streamable-http",
+      "url": "https://aidg-answer-feed.connect675501.chatgpt.site/api/mcp"
+    }
+  }
+}
