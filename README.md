@@ -27,7 +27,7 @@ https://aidg-answer-feed.connect675501.chatgpt.site/api/mcp
 
 The endpoint needs no authentication. The example `examples/direct-http.json` uses the Claude-style `type: http` configuration; use your client's supported remote transport declaration. The portable package uses `type: streamable-http` with no credential headers or authentication extension, which validates against the current portable MCP schema. Native public endpoint access is unauthenticated; select no authentication where a client asks. Do not paste either configuration into a client that only accepts local `command` configuration.
 
-ChatGPT custom remote connections depend on the user's plan, developer-mode settings and workspace permissions. Where available, use the client's custom MCP connection settings with the endpoint above. A private native Sites-created Personal plugin is available only to its owner or permitted workspace; it does not publish this package in the universal directory. Public directory approval is separate from repository installation. This repository and `server.json` are prepared distribution artifacts; neither proves directory registration or approval.
+ChatGPT custom remote connections depend on the user's plan, developer-mode settings and workspace permissions. Where available, use the client's custom MCP connection settings with the endpoint above. A private native Sites-created Personal plugin is available only to its owner or permitted workspace; it does not publish this package in the universal directory. Public directory approval is separate from repository installation. The repository is public and the remote server is registered in the official MCP Registry; neither is an OpenAI or Anthropic public-directory approval.
 
 ## Use the tools
 
@@ -56,6 +56,8 @@ Your AI client transmits tool arguments to AIDG's hosted service for processing.
 
 ## Package status and rights
 
-`server.json` is a remotes-only proposal for `site.chatgpt.connect675501.aidg-answer-feed/answer-feed`. Official MCP Registry publication requires hosted-domain HTTP ownership proof, authenticated publication and public-result verification. Repository distribution is distinct from public OpenAI or Anthropic directory listing; no directory endorsement is claimed.
+The public plugin repository is available at [micaela2/aidg-answer-feed-plugin](https://github.com/micaela2/aidg-answer-feed-plugin). The hosted server was published with HTTP domain ownership proof in the official MCP Registry as `site.chatgpt.connect675501.aidg-answer-feed/answer-feed`, version `1.1.0`, with active status. [Read the registry record](https://registry.modelcontextprotocol.io/v0.1/servers/site.chatgpt.connect675501.aidg-answer-feed%2Fanswer-feed/versions/1.1.0).
+
+Registry registration is metadata publication, not certification or endorsement. Repository distribution and private Personal-plugin availability are distinct from OpenAI or Anthropic public-directory listing. No public-directory approval is claimed.
 
 Copyright © 2026 AI Discovery Group. Installation and use of this connector configuration, workflow and supplied examples with AIDG Answer Feed are permitted. No additional software redistribution, modification or open-source license rights are granted by this notice. The hosted service remains proprietary and subject to its published terms. No paid application implementation, business evidence or credentials are included in this repository.
